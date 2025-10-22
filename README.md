@@ -1,5 +1,5 @@
 # Hi there 👋
-Welcome to my GutHub page. This is where you can see what I'm currently working on. Have a look around! (I apologize for the mess)
+Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around! (I apologize for the mess)
 
 ## Who am I?
 My name is Jonas and I am a software engineering student at Oslo Metropolitan University. I've always loved technology and programming, which is why I chose to study software engineering.
