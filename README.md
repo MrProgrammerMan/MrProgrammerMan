@@ -5,7 +5,7 @@ Welcome to my GitHub page. This is where you can see what I'm currently working 
 ### Languages I know well
 [![Languages I know well](https://skillicons.dev/icons?i=rust,nix,bash,postgres,py,java,html,css,js)](https://skillicons.dev)
 ### Languages I'm learning
-[![Languages I'm learning](https://skillicons.dev/icons?i=bash,haskell,nix,rust,wasm)](https://skillicons.dev)
+[![Languages I'm learning](https://skillicons.dev/icons?i=rust,nix,bash,haskell,wasm)](https://skillicons.dev)
 ### Tooling I use
 [![Tooling I use](https://skillicons.dev/icons?i=docker,figma,git,githubactions,linux,maven,nginx,npm,postman,redis,spring,vite,vscode)](https://skillicons.dev)
 ### Tooling I want to learn
