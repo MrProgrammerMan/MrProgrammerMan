@@ -1,6 +1,16 @@
 # Hi there 👋
 Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around! (I apologize for the mess)
 
+## Technologies I use or have used
+[![Languages I know well](https://skillicons.dev/icons?i=rust,nix,bash,postgres,py,java,html,css,js)](https://skillicons.dev)
+[![Languages I'm learning](https://skillicons.dev/icons?i=bash,haskell,nix,rust,wasm)](https://skillicons.dev)
+
+[![Tooling I use](https://skillicons.dev/icons?i=docker,figma,git,githubactions,linux,maven,nginx,npm,postman,redis,spring,vite,vscode)](https://skillicons.dev)
+[![Tooling I want to learn](https://skillicons.dev/icons?i=bevy,neovim)](https://skillicons.dev)
+
+[![Technologies I've tried](https://skillicons.dev/icons?i=bootstrap,c,cpp,gitlab,idea,kubernetes,processing,tailwind,mysql,vitest)](https://skillicons.dev)
+[![Some various other things](https://skillicons.dev/icons?i=arduino,sketchup)](https://skillicons.dev)
+
 ## Who am I?
 My name is Jonas and I am a software engineering student at Oslo Metropolitan University. I've always loved technology and programming, which is why I chose to study software engineering.
 I love understanding how things work, and can never stop myself from investigating something I don't understand. **If you are a potential employer reviewing job candidates you may skip to the next paragraph.** That means I am probably sometimes a pain to deal with if I can't figure something out or if I'm forced to accept some technique or method without knowing _why_.
