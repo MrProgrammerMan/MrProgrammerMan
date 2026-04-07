@@ -1,58 +1,9 @@
 # Hi there 👋
-Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around! (I apologize for the mess)
+Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around!
 
-## Technologies I use or have used
+You can read about my focus or technologies I use(bottom of the page).
 
-### Languages I know well
-- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — 
-- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — 
-- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — 
-- ![postgres](https://skillicons.dev/icons?i=postgres) **PostgreSQL** — 
-- ![py](https://skillicons.dev/icons?i=py) **Python** — 
-- ![java](https://skillicons.dev/icons?i=java) **Java** — 
-- ![html](https://skillicons.dev/icons?i=html) **HTML** — 
-- ![css](https://skillicons.dev/icons?i=css) **CSS** — 
-- ![js](https://skillicons.dev/icons?i=js) **JavaScript** — 
-
-### Languages I'm learning
-- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — 
-- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — 
-- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — 
-- ![haskell](https://skillicons.dev/icons?i=haskell) **Haskell** — 
-- ![wasm](https://skillicons.dev/icons?i=wasm) **WebAssembly** — 
-
-### Tooling I use
-- ![docker](https://skillicons.dev/icons?i=docker) **Docker** — 
-- ![figma](https://skillicons.dev/icons?i=figma) **Figma** — 
-- ![git](https://skillicons.dev/icons?i=git) **Git** — 
-- ![githubactions](https://skillicons.dev/icons?i=githubactions) **GitHub Actions** — 
-- ![linux](https://skillicons.dev/icons?i=linux) **Linux** — 
-- ![maven](https://skillicons.dev/icons?i=maven) **Maven** — 
-- ![nginx](https://skillicons.dev/icons?i=nginx) **Nginx** — 
-- ![npm](https://skillicons.dev/icons?i=npm) **npm** — 
-- ![postman](https://skillicons.dev/icons?i=postman) **Postman** — 
-- ![redis](https://skillicons.dev/icons?i=redis) **Redis** — 
-- ![spring](https://skillicons.dev/icons?i=spring) **Spring** — 
-- ![vite](https://skillicons.dev/icons?i=vite) **Vite** — 
-- ![vscode](https://skillicons.dev/icons?i=vscode) **VS Code** — 
-
-### Tooling I want to learn
-- ![bevy](https://skillicons.dev/icons?i=bevy) **Bevy** — 
-- ![neovim](https://skillicons.dev/icons?i=neovim) **Neovim** — 
-
-### Technologies I've tried or used in the past
-- ![bootstrap](https://skillicons.dev/icons?i=bootstrap) **Bootstrap** — 
-- ![c](https://skillicons.dev/icons?i=c) **C** — 
-- ![cpp](https://skillicons.dev/icons?i=cpp) **C++** — 
-- ![gitlab](https://skillicons.dev/icons?i=gitlab) **GitLab** — 
-- ![idea](https://skillicons.dev/icons?i=idea) **IntelliJ IDEA** — 
-- ![kubernetes](https://skillicons.dev/icons?i=kubernetes) **Kubernetes** — 
-- ![processing](https://skillicons.dev/icons?i=processing) **Processing** — 
-- ![tailwind](https://skillicons.dev/icons?i=tailwind) **Tailwind** — 
-- ![mysql](https://skillicons.dev/icons?i=mysql) **MySQL** — 
-- ![vitest](https://skillicons.dev/icons?i=vitest) **Vitest** — 
-- ![arduino](https://skillicons.dev/icons?i=arduino) **Arduino** — 
-- ![sketchup](https://skillicons.dev/icons?i=sketchup) **SketchUp** —
+(I apologize for the mess)
 
 ## Who am I?
 My name is Jonas and I am a software engineering student at Oslo Metropolitan University. I've always loved technology and programming, which is why I chose to study software engineering.
@@ -79,3 +30,51 @@ Being a software engineering student, I learn about project management, developm
 
 ## Work
 I'm actively looking for a job opportunity within software engineering. I'd be happy to consider an offer, especially(but not exclusively) if it coincides with my interests in the field. You can reach me through my [LinkedIn profile](https://www.linkedin.com/in/jonas-baugerud/). I also have some contact info on [my website](https://jonas.baugerud.no).
+
+## Technologies I use or have used
+
+### Languages I know well
+- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — My personal goto. Can be used for almost anything, from low level systems to web servers. I even use it to compile WASM for my portfolio website.
+- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — This is more tooling-oriented. I use it in all my projects. It packages software and guarantees correct deployment.
+- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — Always useful.
+- ![postgres](https://skillicons.dev/icons?i=postgres) **PostgreSQL** — You can do remarkably powerful things with SQL and PL/pqSQL.
+- ![py](https://skillicons.dev/icons?i=py) **Python** — For certain quick prototyping and university courses.
+- ![java](https://skillicons.dev/icons?i=java) **Java** — The main language taught at university.
+- ![html](https://skillicons.dev/icons?i=html) **HTML** — Always important to keep in mind the basics.
+- ![css](https://skillicons.dev/icons?i=css) **CSS** — I prefer writing my own css(SCSS) instead of using tools like Tailwind. That being said, design is not my main focus.
+- ![js](https://skillicons.dev/icons?i=js) **JavaScript** — This is unavoidable in web... is what I would say if rust didn't have such great support for WASM.
+
+### Languages I'm learning
+- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — Currently working on async understanding.
+- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — Currently working chapter 5 of [the thesis]((https://edolstra.github.io/pubs/phd-thesis.pdf)
+- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — I often bump into commands I haven't used before and try to get familiar with as many as possible.
+- ![haskell](https://skillicons.dev/icons?i=haskell) **Haskell** — Currently reading [Programming in Haskell](https://people.cs.nott.ac.uk/pszgmh/pih.html).
+- ![wasm](https://skillicons.dev/icons?i=wasm) **WebAssembly** — I am developing my portfolio site that runs on [Leptos](https://www.leptos.dev/), but would like to learn more about WASM itself.
+
+### Tooling I use
+- ![docker](https://skillicons.dev/icons?i=docker) **Docker** — Mostly when collaborating with others. In my personal projects, Nix has replaced Docker.
+- ![figma](https://skillicons.dev/icons?i=figma) **Figma** — Prototyping UIs.
+- ![git](https://skillicons.dev/icons?i=git) **Git** — Have to mention it.
+- ![githubactions](https://skillicons.dev/icons?i=githubactions) **GitHub Actions** — Love this! Allows a ton of automation and free jobs on public repos.
+- ![linux](https://skillicons.dev/icons?i=linux) **Linux** — I run NixOS(btw).
+- ![maven](https://skillicons.dev/icons?i=maven) **Maven** — University work.
+- ![nginx](https://skillicons.dev/icons?i=nginx) **Nginx** — Or Caddy. TLS and reverse proxying between sites.
+- ![npm](https://skillicons.dev/icons?i=npm) **npm** — Shows up from time to time.
+- ![postman](https://skillicons.dev/icons?i=postman) **Postman** — Manual HTTP testing.
+- ![redis](https://skillicons.dev/icons?i=redis) **Redis** — Caching and refresh token storage.
+- ![spring](https://skillicons.dev/icons?i=spring) **Spring** — University work.
+- ![vite](https://skillicons.dev/icons?i=vite) **Vite** — We use it to build the frontend of the student accosiations website.
+- ![vscode](https://skillicons.dev/icons?i=vscode) **VS Code** — My current IDE.
+
+### Tooling I want to learn
+- ![bevy](https://skillicons.dev/icons?i=bevy) **Bevy** — Game development in Rust.
+- ![neovim](https://skillicons.dev/icons?i=neovim) **Neovim** — Next time I have a couple years to spare.
+
+### Technologies I've tried or used in the past
+- ![c](https://skillicons.dev/icons?i=c) **C** — Mostly for learning purposes.
+- ![gitlab](https://skillicons.dev/icons?i=gitlab) **GitLab** — Self hostable as an alternative to Microsoft.
+- ![kubernetes](https://skillicons.dev/icons?i=kubernetes) **Kubernetes** — Ran my own GitHub Actions Runner Controller once(but this is a bit overkill and unnecessary)
+- ![processing](https://skillicons.dev/icons?i=processing) **Processing** — This is where I'd say I learned to program.
+- ![tailwind](https://skillicons.dev/icons?i=tailwind) **Tailwind** — Have tried it, prefer SCSS personally.
+- ![arduino](https://skillicons.dev/icons?i=arduino) **Arduino** — Have had some hobby interest in electronics.
+- ![sketchup](https://skillicons.dev/icons?i=sketchup) **SketchUp** — Useful for simple design, like appartment plans or simple 3D-prints.
