@@ -2,17 +2,57 @@
 Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around! (I apologize for the mess)
 
 ## Technologies I use or have used
+
 ### Languages I know well
-[![Languages I know well](https://skillicons.dev/icons?i=rust,nix,bash,postgres,py,java,html,css,js)](https://skillicons.dev)
+- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — 
+- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — 
+- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — 
+- ![postgres](https://skillicons.dev/icons?i=postgres) **PostgreSQL** — 
+- ![py](https://skillicons.dev/icons?i=py) **Python** — 
+- ![java](https://skillicons.dev/icons?i=java) **Java** — 
+- ![html](https://skillicons.dev/icons?i=html) **HTML** — 
+- ![css](https://skillicons.dev/icons?i=css) **CSS** — 
+- ![js](https://skillicons.dev/icons?i=js) **JavaScript** — 
+
 ### Languages I'm learning
-[![Languages I'm learning](https://skillicons.dev/icons?i=rust,nix,bash,haskell,wasm)](https://skillicons.dev)
+- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — 
+- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — 
+- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — 
+- ![haskell](https://skillicons.dev/icons?i=haskell) **Haskell** — 
+- ![wasm](https://skillicons.dev/icons?i=wasm) **WebAssembly** — 
+
 ### Tooling I use
-[![Tooling I use](https://skillicons.dev/icons?i=docker,figma,git,githubactions,linux,maven,nginx,npm,postman,redis,spring,vite,vscode)](https://skillicons.dev)
+- ![docker](https://skillicons.dev/icons?i=docker) **Docker** — 
+- ![figma](https://skillicons.dev/icons?i=figma) **Figma** — 
+- ![git](https://skillicons.dev/icons?i=git) **Git** — 
+- ![githubactions](https://skillicons.dev/icons?i=githubactions) **GitHub Actions** — 
+- ![linux](https://skillicons.dev/icons?i=linux) **Linux** — 
+- ![maven](https://skillicons.dev/icons?i=maven) **Maven** — 
+- ![nginx](https://skillicons.dev/icons?i=nginx) **Nginx** — 
+- ![npm](https://skillicons.dev/icons?i=npm) **npm** — 
+- ![postman](https://skillicons.dev/icons?i=postman) **Postman** — 
+- ![redis](https://skillicons.dev/icons?i=redis) **Redis** — 
+- ![spring](https://skillicons.dev/icons?i=spring) **Spring** — 
+- ![vite](https://skillicons.dev/icons?i=vite) **Vite** — 
+- ![vscode](https://skillicons.dev/icons?i=vscode) **VS Code** — 
+
 ### Tooling I want to learn
-[![Tooling I want to learn](https://skillicons.dev/icons?i=bevy,neovim)](https://skillicons.dev)
+- ![bevy](https://skillicons.dev/icons?i=bevy) **Bevy** — 
+- ![neovim](https://skillicons.dev/icons?i=neovim) **Neovim** — 
+
 ### Technologies I've tried or used in the past
-[![Technologies I've tried](https://skillicons.dev/icons?i=bootstrap,c,cpp,gitlab,idea,kubernetes,processing,tailwind,mysql,vitest)](https://skillicons.dev)
-[![Some various other things](https://skillicons.dev/icons?i=arduino,sketchup)](https://skillicons.dev)
+- ![bootstrap](https://skillicons.dev/icons?i=bootstrap) **Bootstrap** — 
+- ![c](https://skillicons.dev/icons?i=c) **C** — 
+- ![cpp](https://skillicons.dev/icons?i=cpp) **C++** — 
+- ![gitlab](https://skillicons.dev/icons?i=gitlab) **GitLab** — 
+- ![idea](https://skillicons.dev/icons?i=idea) **IntelliJ IDEA** — 
+- ![kubernetes](https://skillicons.dev/icons?i=kubernetes) **Kubernetes** — 
+- ![processing](https://skillicons.dev/icons?i=processing) **Processing** — 
+- ![tailwind](https://skillicons.dev/icons?i=tailwind) **Tailwind** — 
+- ![mysql](https://skillicons.dev/icons?i=mysql) **MySQL** — 
+- ![vitest](https://skillicons.dev/icons?i=vitest) **Vitest** — 
+- ![arduino](https://skillicons.dev/icons?i=arduino) **Arduino** — 
+- ![sketchup](https://skillicons.dev/icons?i=sketchup) **SketchUp** —
 
 ## Who am I?
 My name is Jonas and I am a software engineering student at Oslo Metropolitan University. I've always loved technology and programming, which is why I chose to study software engineering.
