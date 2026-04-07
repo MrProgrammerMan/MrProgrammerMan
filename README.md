@@ -20,6 +20,12 @@ I have a great interest in finding "proper" solutions to problems. More and more
 
 I also like efficiency. Even though we increasingly write software(such as web apps) that don't take performance into consideration, I find that stupid. There are often tools available that enable solving the same problem while doing so efficiently. Just because modern hardware is fast, there is still energy-consumption and scalability to consider. Of course there are situations where it's okay to write a webserver in Python(especially with cachieg, since optimizations only matter in bottlenecks), but I find more interest in compiled languages with static typing. It's more satisfying to work with, and it leaves less room for sloppy implementations. This will likely explain many of the technologies, languages and techniques I prefer using in my work.
 
+<p align="center">
+  <img src="./image.png" alt="Quote" /><br>
+  <em>"A monad is just a monoid in the category of endofunctors."</em><br>
+  — Saunders Mac Lane, <em>Categories for the Working Mathematician</em> (1971)
+</p>
+
 ## Focus - concrete
 Currently, I am learning Rust. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages. I am also trying to learn more about functional languages. This is not just about efficiency in terms of raw excecution speed, but about efficiency in terms of development time. Functional programming is a type of programming that can provide guarantees like safe concurrency, testability and more. Therefore, I consider it important to learn about(even if I may not end up working with it on a daily basis). I use Haskell.
 
