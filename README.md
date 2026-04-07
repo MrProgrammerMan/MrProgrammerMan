@@ -1,3 +1,5 @@
+![Header](./banner.png)
+
 # Hi there 👋
 Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around!
 
