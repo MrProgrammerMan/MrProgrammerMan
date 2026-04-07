@@ -1,24 +1,38 @@
-![Header](./banner.png)
+<p align="center">
+  <img src="./banner.png" alt="Header" />
+</p>
 
-# Hi there 👋
-Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around!
+<h1 align="center">Hi there 👋</h1>
 
-You can read about my focus or technologies I use(bottom of the page).
+<p align="center">
+  Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around!
+</p>
 
-(I apologize for the mess)
+<p align="center">
+  <a href="#who-am-i">Who am I</a> •
+  <a href="#focus--philosophical">Philosophy</a> •
+  <a href="#focus--concrete">Current Focus</a> •
+  <a href="#work">Work</a> •
+  <a href="#technologies-i-use-or-have-used">Tech</a>
+</p>
+
+---
 
 ## Who am I?
-My name is Jonas and I am a software engineering student at Oslo Metropolitan University. I've always loved technology and programming, which is why I chose to study software engineering.
-I love understanding how things work, and can never stop myself from investigating something I don't understand. **If you are a potential employer reviewing job candidates you may skip to the next paragraph.** That means I am probably sometimes a pain to deal with if I can't figure something out or if I'm forced to accept some technique or method without knowing _why_.
 
-In addition to attending OsloMet, I am also the corporate contact and event manager at [Ditio, the student association for IT students.](https://www.linkedin.com/company/ditio-linjeforening)
+My name is **Jonas** and I am a software engineering student at **Oslo Metropolitan University**.
 
-## Focus - philosophical
-I aspire to work as a software engineer. That means more than just writing programs for clients. It means taking into account ethical, societal and practical considerations to deliver software that's not only functonal, but also maintainable and well documented. Good software can evolve with the needs of the client and can be passed to other developers with little friction.
+I love understanding how things work, and can never stop myself from investigating something I don't understand.
 
-I have a great interest in finding "proper" solutions to problems. More and more I find myself prefering expert books and official documentation over less formal sources like blogs or guides. That is not to take away from the wonderful part of the software space that is sharing and helping each other - it's just often important to check and harden knowledge with official sources to avoid pitfalls like security holes and solutions that only work _sometimes_.
+In addition to attending OsloMet, I am also the corporate contact and event manager at [**Ditio**, the student association for IT students](https://www.linkedin.com/company/ditio-linjeforening).
 
-I also like efficiency. Even though we increasingly write software(such as web apps) that don't take performance into consideration, I find that stupid. There are often tools available that enable solving the same problem while doing so efficiently. Just because modern hardware is fast, there is still energy-consumption and scalability to consider. Of course there are situations where it's okay to write a webserver in Python(especially with cachieg, since optimizations only matter in bottlenecks), but I find more interest in compiled languages with static typing. It's more satisfying to work with, and it leaves less room for sloppy implementations. This will likely explain many of the technologies, languages and techniques I prefer using in my work.
+---
+
+## Focus — concrete
+
+Currently, I am learning **Rust**. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages.
+
+I am also trying to learn more about **functional languages**. This is not just about efficiency in terms of raw execution speed, but about efficiency in terms of development time. Functional programming offers guarantees like safe concurrency, testability and more. Even if I don't end up working with it daily, it's worth learning. I use **Haskell**. On the side, I'm reading [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
 <p align="center">
   <img src="./image.png" alt="Quote" /><br>
@@ -26,63 +40,202 @@ I also like efficiency. Even though we increasingly write software(such as web a
   — Saunders Mac Lane, <em>Categories for the Working Mathematician</em> (1971)
 </p>
 
-## Focus - concrete
-Currently, I am learning Rust. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages. I am also trying to learn more about functional languages. This is not just about efficiency in terms of raw excecution speed, but about efficiency in terms of development time. Functional programming is a type of programming that can provide guarantees like safe concurrency, testability and more. Therefore, I consider it important to learn about(even if I may not end up working with it on a daily basis). I use Haskell.
+Nix deserves its own mention. It's a purely functional language drawing heavily on Haskell for its inspiration. It is, however, not primarily intended as a general purpose language. It is Turing complete, but its purpose is declaring and defining packages, system configurations, development environments, and much more. In general it provides a lot of great tooling involved in software development. I use it for all my projects, as well as for configuring all my machines, which run [NixOS](https://nixos.org/) (a Linux distro based on the Nix package manager that is used with the Nix programming language).
 
-In addition I should mention nix, which is a purely functional language drawing heavily on haskell for its inspiration. It is, however, not primarily intended as a general purpose language. It is turing complete, but its purpose is declaring and defining packages, system configurations, development environments, and much more. In general it provides a lot of great tooling involved in software development. I use it for all my projects, as well as for configuring all my machines, which run [NixOS](https://nixos.org/)(linux distro based on the Nix package manager that is used with the nix programming language).
+<details>
+<summary><strong>🔧 My current Nix deep-dive (click to expand)</strong></summary>
 
-Recently I've been focusing on learning more about the practical use cases of nix. My [portfolio page](https://jonas.baugerud.no) is built with a rust framework called leptos. The output binary and dependencies such as static files is built with nix. This guarantees it will build correctly every single time(sort of like docker, but more deterministic and robust). The portfolio(which is thus a nix package) is then wrapped in a NixOS module that specifies exactly how to run it, and allows specifying options to modify how it functions. This module is used in a NixOS VM that allows testing of the final server environment prior to deployment. This can also be used for automated NixOS integration tests with servers and clients running virtually. Finally, I use [my own deployment tool](https://github.com/MPM-Labs/nixos-deployment-template) to deploy a NixOS system running this same setup, including server bootstrapping, updates, and automatic secrets management integrated into GitHub Actions and repository/environment secrets. Nix will even seemlessly bridge the gap between source and binary deployment by providing crching of built packages. This reduces build times on the server, which may be resource constrained. As a bonus nix allows simple and deterministic development environments that are language- and tooling-agnostic and can be shared between developers as part of a git repo. Simple put, nix is f***ing awesome.
+<br>
 
-## Other focuses
-Being a software engineering student, I learn about project management, development processeses, algorithms, data strucutres, databases, programming, operating systems, cloud services, networking and more.
+Recently I've been focusing on the practical use cases of Nix. My [portfolio page](https://jonas.baugerud.no) serves as a real-world test bed for a full Nix-based pipeline:
+
+1. **Build** — The site is written in Rust using [Leptos](https://www.leptos.dev/). Nix builds the binary and all static assets reproducibly. Same inputs, same outputs, every time — like Docker, but more deterministic.
+2. **Package** — The build output is wrapped in a **NixOS module** that declares exactly how to run it, with configurable options for tweaking behavior.
+3. **Test** — The module runs inside a NixOS VM, letting me validate the full server environment before it ever touches production. This also enables automated integration tests with virtual servers and clients.
+4. **Deploy** — [My own deployment tool](https://github.com/MPM-Labs/nixos-deployment-template) handles server bootstrapping, updates, and secrets management via GitHub Actions and environment secrets. Binary caching bridges source and binary deployment, keeping build times low on resource-constrained servers.
+
+As a bonus, Nix gives me deterministic, language-agnostic dev environments that live in the Git repo and work identically for every contributor.
+
+Simply put, **Nix is incredible.**
+
+</details>
+
+---
+
+## Focus — philosophical
+
+Good software accounts for ethical, societal and practical considerations. It's not only functional, but also maintainable and well documented — able to evolve with the client's needs and be passed to other developers with little friction.
+
+I have a great interest in finding *"proper"* solutions to problems. More and more I find myself preferring expert books and official documentation over less formal sources like blogs or guides. That's not to take away from the wonderful part of the software world that is sharing and helping each other. It's just important to verify against official sources — otherwise you hit pitfalls like security holes and solutions that only work _sometimes_.
+
+I care about efficiency. Modern hardware is fast, but energy consumption and scalability still matter, and I find it more satisfying to work in compiled, statically-typed languages where sloppiness has less room to hide. This will likely explain many of the technologies, languages and techniques I prefer using in my work.
+
+---
 
 ## Work
-I'm actively looking for a job opportunity within software engineering. I'd be happy to consider an offer, especially(but not exclusively) if it coincides with my interests in the field. You can reach me through my [LinkedIn profile](https://www.linkedin.com/in/jonas-baugerud/). I also have some contact info on [my website](https://jonas.baugerud.no).
+
+> 💼 **I'm actively looking for a job opportunity within software engineering.**
+
+I'm especially interested in roles involving Rust, systems programming, or infrastructure/tooling — but I'm open to anything where correctness and craftsmanship matter.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jonas-baugerud/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://jonas.baugerud.no">
+    <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
+  </a>
+</p>
+
+---
 
 ## Technologies I use or have used
 
-### Languages I know well
-- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — My personal goto. Can be used for almost anything, from low level systems to web servers. I even use it to compile WASM for my portfolio website.
-- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — This is more tooling-oriented. I use it in all my projects. It packages software and guarantees correct deployment.
-- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — Always useful.
-- ![postgres](https://skillicons.dev/icons?i=postgres) **PostgreSQL** — You can do remarkably powerful things with SQL and PL/pqSQL.
-- ![py](https://skillicons.dev/icons?i=py) **Python** — For certain quick prototyping and university courses.
-- ![java](https://skillicons.dev/icons?i=java) **Java** — The main language taught at university.
-- ![html](https://skillicons.dev/icons?i=html) **HTML** — Always important to keep in mind the basics.
-- ![css](https://skillicons.dev/icons?i=css) **CSS** — I prefer writing my own css(SCSS) instead of using tools like Tailwind. That being said, design is not my main focus.
-- ![js](https://skillicons.dev/icons?i=js) **JavaScript** — This is unavoidable in web... is what I would say if rust didn't have such great support for WASM.
+### 🟢 Languages I know well
 
-### Languages I'm learning
-- ![rust](https://skillicons.dev/icons?i=rust) **Rust** — Currently working on async understanding.
-- ![nix](https://skillicons.dev/icons?i=nix) **Nix** — Currently working chapter 5 of [the thesis]((https://edolstra.github.io/pubs/phd-thesis.pdf)
-- ![bash](https://skillicons.dev/icons?i=bash) **Bash** — I often bump into commands I haven't used before and try to get familiar with as many as possible.
-- ![haskell](https://skillicons.dev/icons?i=haskell) **Haskell** — Currently reading [Programming in Haskell](https://people.cs.nott.ac.uk/pszgmh/pih.html).
-- ![wasm](https://skillicons.dev/icons?i=wasm) **WebAssembly** — I am developing my portfolio site that runs on [Leptos](https://www.leptos.dev/), but would like to learn more about WASM itself.
+<table>
+  <tr>
+    <td align="center" width="80"><img src="https://skillicons.dev/icons?i=rust" /><br><sub><b>Rust</b></sub></td>
+    <td>My personal go-to. Can be used for almost anything, from low level systems to web servers. I even use it to compile WASM for my portfolio website.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nix" /><br><sub><b>Nix</b></sub></td>
+    <td>More tooling-oriented. I use it in all my projects. It packages software and guarantees correct deployment.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=bash" /><br><sub><b>Bash</b></sub></td>
+    <td>Always useful.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postgres" /><br><sub><b>PostgreSQL</b></sub></td>
+    <td>You can do remarkably powerful things with SQL and PL/pgSQL.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=py" /><br><sub><b>Python</b></sub></td>
+    <td>For quick prototyping and university courses.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=java" /><br><sub><b>Java</b></sub></td>
+    <td>The main language taught at university.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html" /><br><sub><b>HTML</b></sub></td>
+    <td>Always important to keep the basics in mind.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=css" /><br><sub><b>CSS</b></sub></td>
+    <td>I prefer writing my own CSS (SCSS) instead of using tools like Tailwind. That being said, design is not my main focus.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=js" /><br><sub><b>JavaScript</b></sub></td>
+    <td>Unavoidable in web work — though I reach for Rust + WASM when I can.</td>
+  </tr>
+</table>
 
-### Tooling I use
-- ![docker](https://skillicons.dev/icons?i=docker) **Docker** — Mostly when collaborating with others. In my personal projects, Nix has replaced Docker.
-- ![figma](https://skillicons.dev/icons?i=figma) **Figma** — Prototyping UIs.
-- ![git](https://skillicons.dev/icons?i=git) **Git** — Have to mention it.
-- ![githubactions](https://skillicons.dev/icons?i=githubactions) **GitHub Actions** — Love this! Allows a ton of automation and free jobs on public repos.
-- ![linux](https://skillicons.dev/icons?i=linux) **Linux** — I run NixOS(btw).
-- ![maven](https://skillicons.dev/icons?i=maven) **Maven** — University work.
-- ![nginx](https://skillicons.dev/icons?i=nginx) **Nginx** — Or Caddy. TLS and reverse proxying between sites.
-- ![npm](https://skillicons.dev/icons?i=npm) **npm** — Shows up from time to time.
-- ![postman](https://skillicons.dev/icons?i=postman) **Postman** — Manual HTTP testing.
-- ![redis](https://skillicons.dev/icons?i=redis) **Redis** — Caching and refresh token storage.
-- ![spring](https://skillicons.dev/icons?i=spring) **Spring** — University work.
-- ![vite](https://skillicons.dev/icons?i=vite) **Vite** — We use it to build the frontend of the student accosiations website.
-- ![vscode](https://skillicons.dev/icons?i=vscode) **VS Code** — My current IDE.
+### 📚 Languages I'm learning
 
-### Tooling I want to learn
-- ![bevy](https://skillicons.dev/icons?i=bevy) **Bevy** — Game development in Rust.
-- ![neovim](https://skillicons.dev/icons?i=neovim) **Neovim** — Next time I have a couple years to spare.
+<table>
+  <tr>
+    <td align="center" width="80"><img src="https://skillicons.dev/icons?i=rust" /><br><sub><b>Rust</b></sub></td>
+    <td>Currently working on async understanding.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nix" /><br><sub><b>Nix</b></sub></td>
+    <td>Currently working through chapter 5 of <a href="https://edolstra.github.io/pubs/phd-thesis.pdf">the thesis</a>.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=bash" /><br><sub><b>Bash</b></sub></td>
+    <td>I often bump into commands I haven't used before and try to get familiar with as many as possible.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=haskell" /><br><sub><b>Haskell</b></sub></td>
+    <td>Currently reading <a href="https://people.cs.nott.ac.uk/pszgmh/pih.html">Programming in Haskell</a>.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=wasm" /><br><sub><b>WASM</b></sub></td>
+    <td>I am developing my portfolio site that runs on <a href="https://www.leptos.dev/">Leptos</a>, but would like to learn more about WASM itself.</td>
+  </tr>
+</table>
 
-### Technologies I've tried or used in the past
-- ![c](https://skillicons.dev/icons?i=c) **C** — Mostly for learning purposes.
-- ![gitlab](https://skillicons.dev/icons?i=gitlab) **GitLab** — Self hostable as an alternative to Microsoft.
-- ![kubernetes](https://skillicons.dev/icons?i=kubernetes) **Kubernetes** — Ran my own GitHub Actions Runner Controller once(but this is a bit overkill and unnecessary)
-- ![processing](https://skillicons.dev/icons?i=processing) **Processing** — This is where I'd say I learned to program.
-- ![tailwind](https://skillicons.dev/icons?i=tailwind) **Tailwind** — Have tried it, prefer SCSS personally.
-- ![arduino](https://skillicons.dev/icons?i=arduino) **Arduino** — Have had some hobby interest in electronics.
-- ![sketchup](https://skillicons.dev/icons?i=sketchup) **SketchUp** — Useful for simple design, like appartment plans or simple 3D-prints.
+### 🛠️ Tooling I use
+
+<table>
+  <tr>
+    <td align="center" width="80"><img src="https://skillicons.dev/icons?i=docker" /><br><sub><b>Docker</b></sub></td>
+    <td>Mostly when collaborating with others. In my personal projects, Nix has replaced Docker.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=figma" /><br><sub><b>Figma</b></sub></td>
+    <td>Prototyping UIs.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=githubactions" /><br><sub><b>Actions</b></sub></td>
+    <td>Love this! Allows a ton of automation and free jobs on public repos.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=linux" /><br><sub><b>Linux</b></sub></td>
+    <td>I run NixOS (btw).</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=maven" /><br><sub><b>Maven</b></sub></td>
+    <td>University work.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nginx" /><br><sub><b>Nginx</b></sub></td>
+    <td>Or Caddy. TLS and reverse proxying between sites.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postman" /><br><sub><b>Postman</b></sub></td>
+    <td>Manual HTTP testing.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=redis" /><br><sub><b>Redis</b></sub></td>
+    <td>Caching and refresh token storage.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=spring" /><br><sub><b>Spring</b></sub></td>
+    <td>University work.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vite" /><br><sub><b>Vite</b></sub></td>
+    <td>We use it to build the frontend of the student association's website.</td>
+  </tr>
+</table>
+
+### 🎯 Tooling I want to learn
+
+<table>
+  <tr>
+    <td align="center" width="80"><img src="https://skillicons.dev/icons?i=bevy" /><br><sub><b>Bevy</b></sub></td>
+    <td>Game development in Rust.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=neovim" /><br><sub><b>Neovim</b></sub></td>
+    <td>Next time I have a couple years to spare.</td>
+  </tr>
+</table>
+
+### 📦 Technologies I've tried or used in the past
+
+<table>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=kubernetes" /><br><sub><b>K8s</b></sub></td>
+    <td>Ran my own GitHub Actions Runner Controller once (but this is a bit overkill and unnecessary).</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=processing" /><br><sub><b>Processing</b></sub></td>
+    <td>This is where I'd say I learned to program.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=tailwind" /><br><sub><b>Tailwind</b></sub></td>
+    <td>Have tried it, prefer SCSS personally.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=arduino" /><br><sub><b>Arduino</b></sub></td>
+    <td>Have had some hobby interest in electronics.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=sketchup" /><br><sub><b>SketchUp</b></sub></td>
+    <td>Useful for simple design, like apartment plans or simple 3D prints.</td>
+  </tr>
+</table>
