@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  You can check out my showcase projects over on [MPM-Labs](https://github.com/MPM-Labs)
+</p>
+
+<p align="center">
   <a href="#who-am-i">Who am I</a> •
   <a href="#focus--philosophical">Philosophy</a> •
   <a href="#focus--concrete">Current Focus</a> •
