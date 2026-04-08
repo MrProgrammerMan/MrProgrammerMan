@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  You can check out my showcase projects over on [MPM-Labs](https://github.com/MPM-Labs)
+  You can check out my showcase projects over on <a href="https://github.com/MPM-Labs">MPM-Labs</a>
 </p>
 
 <p align="center">
