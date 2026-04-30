@@ -149,11 +149,11 @@ I'm especially interested in roles involving Rust, systems programming, or infra
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=bash" /><br><sub><b>Bash</b></sub></td>
-    <td>I often bump into commands I haven't used before and try to get familiar with as many as possible.</td>
+    <td>I often bump into commands I haven't used before and try to get familiar with as many as possible. (technically I use zsh)</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=haskell" /><br><sub><b>Haskell</b></sub></td>
-    <td>Currently reading <a href="https://people.cs.nott.ac.uk/pszgmh/pih.html">Programming in Haskell</a>.</td>
+    <td>Currently reading <a href="https://people.cs.nott.ac.uk/pszgmh/pih.html">Programming in Haskell and [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)</a>.</td>
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=wasm" /><br><sub><b>WASM</b></sub></td>
