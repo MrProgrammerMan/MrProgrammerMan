@@ -24,11 +24,14 @@
 
 ## Who am I?
 
-My name is **Jonas** and I am a software engineering student at **Oslo Metropolitan University**.
+My name is **Jonas** and I am a software engineering student at **Oslo Metropolitan University**. I also study whatever I find interesting in the software world, either on my own or in extra courses.
 
 I love understanding how things work, and can never stop myself from investigating something I don't understand.
 
-In addition to attending OsloMet, I am also the corporate contact and event manager at [**Ditio**, the student association for IT students](https://www.linkedin.com/company/ditio-linjeforening).
+In addition to attending OsloMet, I have the following roles:
+- corporate contact and event manager at [**Ditio**, the student association for IT students](https://www.linkedin.com/company/ditio-linjeforening).
+- TA in algorithms and data structures at OsloMet.
+- "single-course" student at UiO (I attend IN2040 functional programming).
 
 ---
 
@@ -36,7 +39,7 @@ In addition to attending OsloMet, I am also the corporate contact and event mana
 
 Currently, I am learning **Rust**. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages.
 
-I am also trying to learn more about **functional languages**. This is not just about efficiency in terms of raw execution speed, but about efficiency in terms of development time. Functional programming offers guarantees like safe concurrency, testability and more. Even if I don't end up working with it daily, it's worth learning. I use **Haskell**. On the side, I'm reading [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+I am also learning **Haskell**. I believe there are other kinds of efficiency than raw execution speed. For example in terms of development time. Functional programming offers guarantees like safe(r) concurrency, testability and more. Even if I don't end up working with it daily, it's worth learning. **Haskell** is what I personally enjoy the most, but I'm attending a course that uses **Scheme(Lisp)** to lay the foundations of the paradigm. On the side, I'm reading [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
 <p align="center">
   <img src="./image.png" alt="Quote" /><br>
@@ -202,7 +205,7 @@ I'm especially interested in roles involving Rust, systems programming, or infra
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=vite" /><br><sub><b>Vite</b></sub></td>
-    <td>We use it to build the frontend of the student association's website.</td>
+    <td>We use it to build the frontend of the student association's website as well as the frontend of <a href="https://metronomicon.no">Metronomicon</a>.</td>
   </tr>
 </table>
 
@@ -215,7 +218,7 @@ I'm especially interested in roles involving Rust, systems programming, or infra
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=neovim" /><br><sub><b>Neovim</b></sub></td>
-    <td>Next time I have a couple years to spare.</td>
+    <td>I've actually started on this with a very minimal config(<a href="https://github.com/MrProgrammerMan/nixos_config/blob/master/modules/features/neovim.nix">Found here</a>)</td>
   </tr>
 </table>
 
