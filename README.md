@@ -22,9 +22,12 @@
 
 ---
 
-<center>
-  <img src="https://ghstats.dev/api/langs?username=mrprogrammerman&theme=ayu&max_langs=12&layout=horizontal_list" alt="Top Languages" />
-</center>
+<p align="center">
+  <img
+    src="https://ghstats.dev/api/langs?username=mrprogrammerman&theme=ayu&max_langs=12&layout=horizontal_list"
+    alt="Top Languages"
+  />
+</p>
 
 ---
 
