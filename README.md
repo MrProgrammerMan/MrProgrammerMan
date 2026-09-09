@@ -14,13 +14,11 @@
 
 <p align="center">
   <a href="#who-am-i">Who am I</a> •
-  <a href="#focus--philosophical">Philosophy</a> •
   <a href="#focus--concrete">Current Focus</a> •
+  <a href="#focus--philosophical">Philosophy</a> •
   <a href="#work">Work</a> •
   <a href="#technologies-i-use-or-have-used">Tech</a>
 </p>
-
----
 
 <p align="center">
   <img
@@ -28,8 +26,6 @@
     alt="Top Languages"
   />
 </p>
-
----
 
 ## Who am I?
 
@@ -39,14 +35,18 @@ I love understanding how things work, and can never stop myself from investigati
 
 In addition to attending OsloMet, I have the following roles:
 - corporate contact and event manager at [**Ditio**, the student association for IT students](https://www.linkedin.com/company/ditio-linjeforening).
-- TA in algorithms and data structures at OsloMet.
+- TA in DATS2300(algorithms and data structures) at OsloMet.
 - "single-course" student at UiO (I attend IN2040 functional programming).
 
 ---
 
 ## Focus — concrete
 
+### Rust
+
 Currently, I am learning **Rust**. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages.
+
+### Haskell
 
 I am also learning **Haskell**. I believe there are other kinds of efficiency than raw execution speed. For example in terms of development time. Functional programming offers guarantees like safe(r) concurrency, testability and more. Even if I don't end up working with it daily, it's worth learning. **Haskell** is what I personally enjoy the most, but I'm attending a course that uses **Scheme(Lisp)** to lay the foundations of the paradigm. On the side, I'm reading [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
@@ -55,6 +55,8 @@ I am also learning **Haskell**. I believe there are other kinds of efficiency th
   <em>"A monad is just a monoid in the category of endofunctors."</em><br>
   — Saunders Mac Lane, <em>Categories for the Working Mathematician</em> (1971)
 </p>
+
+### Nix
 
 Nix deserves its own mention. It's a purely functional language drawing heavily on Haskell for its inspiration. It is, however, not primarily intended as a general purpose language. It is Turing complete, but its purpose is declaring and defining packages, system configurations, development environments, and much more. In general it provides a lot of great tooling involved in software development. I use it for all my projects, as well as for configuring all my machines, which run [NixOS](https://nixos.org/) (a Linux distro based on the Nix package manager that is used with the Nix programming language).
 
@@ -80,7 +82,7 @@ Simply put, **Nix is incredible.**
 
 ## Focus — philosophical
 
-Good software accounts for ethical, societal and practical considerations. It's not only functional, but also maintainable and well documented — able to evolve with the client's needs and be passed to other developers with little friction.
+Good software accounts for ethical, societal and practical considerations. It's not only functional (no pun intended), but also maintainable and well documented — able to evolve with the client's needs and be passed to other developers with little friction.
 
 I have a great interest in finding *"proper"* solutions to problems. More and more I find myself preferring expert books and official documentation over less formal sources like blogs or guides. That's not to take away from the wonderful part of the software world that is sharing and helping each other. It's just important to verify against official sources — otherwise you hit pitfalls like security holes and solutions that only work _sometimes_.
 
@@ -92,7 +94,7 @@ I care about efficiency. Modern hardware is fast, but energy consumption and sca
 
 > 💼 **I'm actively looking for a job opportunity within software engineering.**
 
-I'm especially interested in roles involving Rust, systems programming, or infrastructure/tooling — but I'm open to anything where correctness and craftsmanship matter.
+I'm especially interested in roles involving FP, Rust, devops, systems programming, or infrastructure/tooling — but I'm open to anything where correctness and craftsmanship matter.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jonas-baugerud/">
