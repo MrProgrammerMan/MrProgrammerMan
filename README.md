@@ -42,7 +42,7 @@ In addition to attending OsloMet, I have the following roles:
 
 ### Haskell
 
-I'm learning **Haskell**. I think it offers a great (and different) perspective than most OOP languages (which are really all popular languages). I can definitely feel my brain expanding (sometimes it creaks and crackles after a particularly intense haskelling-session). In term of FP, I'm attending a course that uses **Scheme(Lisp)** too.
+I'm learning **Haskell**. I think it offers a great (and different) perspective than most OOP languages (which are really all popular languages). I can definitely feel my brain expanding (sometimes it creaks and crackles after a particularly intense haskelling-session). In terms of FP, I'm attending a course that uses **Scheme(Lisp)** too.
 
 <p align="center">
   <img src="./image.png" alt="Quote" /><br>
@@ -56,7 +56,7 @@ I'm also learning **Rust**. It's like an amalgamation of many paradigms, and in 
 
 ### Nix
 
-Imagine if you wrote down a log of all command you ran so you could retrace your steps and reproduce your machines state at any point. That's not really what Nix does, but it does accomplish the same thing. It also does (but is not limited to):
+Imagine if you wrote down a log of all commands you ran so you could retrace your steps and reproduce your machines state at any point. Nix doesn't do that(that would be stupid), but it does accomplish the same result. It also does (but is not limited to):
 - software packaging (by definitively identifying dependencies, guaranteeing correct deployment)
 - machine configuration
 - atomic updates
@@ -105,6 +105,15 @@ I mostly have questions, but I'll let you know if I find the answers (promise!).
 
 ---
 
+## Books
+Love'em. Currently reading the following:
+[Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+[Programming in Haskell by Graham Hutton](https://people.cs.nott.ac.uk/pszgmh/pih.html)
+[Understanding Eventsourcing by Martin Dilger](https://leanpub.com/eventmodeling-and-eventsourcing)
+[SICP by Abelson and Sussmann](https://web.mit.edu/6.001/6.037/sicp.pdf)
+
+---
+
 ## Work
 
 > 💼 **I'm actively looking for a job opportunity within software engineering.**
@@ -119,13 +128,6 @@ I'm especially interested in roles involving FP, Rust, devops, systems programmi
     <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
   </a>
 </p>
-
-## Books
-Love'em. Currently reading the following:
-[Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
-[Programming in Haskell by Graham Hutton](https://people.cs.nott.ac.uk/pszgmh/pih.html)
-[Understanding Eventsourcing by Martin Dilger](https://leanpub.com/eventmodeling-and-eventsourcing)
-[SICP by Abelson and Sussmann](https://web.mit.edu/6.001/6.037/sicp.pdf)
 
 ---
 
