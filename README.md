@@ -107,10 +107,10 @@ I mostly have questions, but I'll let you know if I find the answers (promise!).
 
 ## Books
 Love'em. Currently reading the following:
-[Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
-[Programming in Haskell by Graham Hutton](https://people.cs.nott.ac.uk/pszgmh/pih.html)
-[Understanding Eventsourcing by Martin Dilger](https://leanpub.com/eventmodeling-and-eventsourcing)
-[SICP by Abelson and Sussmann](https://web.mit.edu/6.001/6.037/sicp.pdf)
+- [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+- [Programming in Haskell by Graham Hutton](https://people.cs.nott.ac.uk/pszgmh/pih.html)
+- [Understanding Eventsourcing by Martin Dilger](https://leanpub.com/eventmodeling-and-eventsourcing)
+- [SICP by Abelson and Sussmann](https://web.mit.edu/6.001/6.037/sicp.pdf)
 
 ---
 
