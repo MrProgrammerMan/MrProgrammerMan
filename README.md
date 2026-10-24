@@ -12,8 +12,8 @@
 
 <p align="center">
   <a href="#who-am-i">Who am I</a> •
-  <a href="#focus--concrete">Current focus</a> •
-  <a href="#focus--philosophical">Philosophy</a> •
+  <a href="#concrete-focus">Current focus</a> •
+  <a href="#philosophical">Philosophy</a> •
   <a href="#books">Books</a> •
   <a href="#work">Work</a> •
   <a href="#technologies-i-use-or-have-used">Tech</a>
