@@ -2,8 +2,6 @@
   <img src="./banner.png" alt="Header" />
 </p>
 
-<h1 align="center">Hi there 👋</h1>
-
 <p align="center">
   Welcome to my GitHub page. This is where you can see what I'm currently working on.
 </p>
@@ -16,13 +14,14 @@
   <a href="#who-am-i">Who am I</a> •
   <a href="#focus--concrete">Current focus</a> •
   <a href="#focus--philosophical">Philosophy</a> •
+  <a href="#books">Books</a> •
   <a href="#work">Work</a> •
   <a href="#technologies-i-use-or-have-used">Tech</a>
 </p>
 
 <p align="center">
   <img
-    src="https://ghstats.dev/api/langs?username=mrprogrammerman&theme=ayu&max_langs=12&layout=horizontal_list"
+    src="https://ghstats.dev/api/langs?username=mrprogrammerman&theme=ayu&max_langs=8&layout=horizontal_list"
     alt="Top Languages"
   />
 </p>
