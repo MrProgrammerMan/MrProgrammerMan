@@ -5,16 +5,16 @@
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
-  Welcome to my GitHub page. This is where you can see what I'm currently working on. Have a look around!
+  Welcome to my GitHub page. This is where you can see what I'm currently working on.
 </p>
 
 <p align="center">
-  You can check out my showcase projects over on <a href="https://github.com/MPM-Labs">MPM-Labs</a>
+  I put showcase projects on <a href="https://github.com/MPM-Labs">MPM-Labs</a>
 </p>
 
 <p align="center">
   <a href="#who-am-i">Who am I</a> •
-  <a href="#focus--concrete">Current Focus</a> •
+  <a href="#focus--concrete">Current focus</a> •
   <a href="#focus--philosophical">Philosophy</a> •
   <a href="#work">Work</a> •
   <a href="#technologies-i-use-or-have-used">Tech</a>
@@ -34,21 +34,16 @@ My name is **Jonas** and I am a software engineering student at **Oslo Metropoli
 I love understanding how things work, and can never stop myself from investigating something I don't understand.
 
 In addition to attending OsloMet, I have the following roles:
-- corporate contact and event manager at [**Ditio**, the student association for IT students](https://www.linkedin.com/company/ditio-linjeforening).
 - TA in DATS2300(algorithms and data structures) at OsloMet.
 - "single-course" student at UiO (I attend IN2040 functional programming).
 
 ---
 
-## Focus — concrete
-
-### Rust
-
-Currently, I am learning **Rust**. I like its unique position as a fast, compiled language with safeguards you would often only find in slower, interpreted languages.
+## Concrete focus
 
 ### Haskell
 
-I am also learning **Haskell**. I believe there are other kinds of efficiency than raw execution speed. For example in terms of development time. Functional programming offers guarantees like safe(r) concurrency, testability and more. Even if I don't end up working with it daily, it's worth learning. **Haskell** is what I personally enjoy the most, but I'm attending a course that uses **Scheme(Lisp)** to lay the foundations of the paradigm. On the side, I'm reading [Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+I'm learning **Haskell**. I think it offers a great (and different) perspective than most OOP languages (which are really all popular languages). I can definitely feel my brain expanding (sometimes it creaks and crackles after a particularly intense haskelling-session). In term of FP, I'm attending a course that uses **Scheme(Lisp)** too.
 
 <p align="center">
   <img src="./image.png" alt="Quote" /><br>
@@ -56,37 +51,58 @@ I am also learning **Haskell**. I believe there are other kinds of efficiency th
   — Saunders Mac Lane, <em>Categories for the Working Mathematician</em> (1971)
 </p>
 
+### Rust
+
+I'm also learning **Rust**. It's like an amalgamation of many paradigms, and in contrast to Haskell it actually has some use in industry. Great performance, support for functional style, great compiler errors. 8/10.
+
 ### Nix
 
-Nix deserves its own mention. It's a purely functional language drawing heavily on Haskell for its inspiration. It is, however, not primarily intended as a general purpose language. It is Turing complete, but its purpose is declaring and defining packages, system configurations, development environments, and much more. In general it provides a lot of great tooling involved in software development. I use it for all my projects, as well as for configuring all my machines, which run [NixOS](https://nixos.org/) (a Linux distro based on the Nix package manager that is used with the Nix programming language).
+Imagine if you wrote down a log of all command you ran so you could retrace your steps and reproduce your machines state at any point. That's not really what Nix does, but it does accomplish the same thing. It also does (but is not limited to):
+- software packaging (by definitively identifying dependencies, guaranteeing correct deployment)
+- machine configuration
+- atomic updates
+- reproducible devshells
+- VM testing of configurations
+For me, it sort of replaces Docker alltogether.
+
+If you're curious, you should really just look at [The Map](https://vimjoyer.com/nixmap/).
 
 <details>
 <summary><strong>🔧 My current Nix deep-dive (click to expand)</strong></summary>
 
 <br>
 
-Recently I've been focusing on the practical use cases of Nix. My [portfolio page](https://jonas.baugerud.no) serves as a real-world test bed for a full Nix-based pipeline:
+My [portfolio page](https://jonas.baugerud.no) uses Nix for a lot of different things (probably somewhat wrongly, so sorry if you already know Nix and this is painful to look at):
 
 1. **Build** — The site is written in Rust using [Leptos](https://www.leptos.dev/). Nix builds the binary and all static assets reproducibly. Same inputs, same outputs, every time — like Docker, but more deterministic.
-2. **Package** — The build output is wrapped in a **NixOS module** that declares exactly how to run it, with configurable options for tweaking behavior.
-3. **Test** — The module runs inside a NixOS VM, letting me validate the full server environment before it ever touches production. This also enables automated integration tests with virtual servers and clients.
+2. **Package** — The build output is wrapped in a **NixOS module** that declares exactly how to run it, with configurable options for tweaking behavior. (well, *bahaviour*, singular (port configuration I think? (The point is that it could do much more)))
+3. **Test** — The module runs inside a NixOS VM, letting me validate the full server environment before it ever touches production. This also enables automated integration tests with virtual servers and clients. (So I have my own deployment tool that stores it's state in a git repo and runs with GitHub Actions. However, for various reasons, it's a steaming pile of garbage. Looking into clan.lol as a better way to manage machines, though it may be a bit extreme for my use cases)
 4. **Deploy** — [My own deployment tool](https://github.com/MPM-Labs/nixos-deployment-template) handles server bootstrapping, updates, and secrets management via GitHub Actions and environment secrets. Binary caching bridges source and binary deployment, keeping build times low on resource-constrained servers.
 
 As a bonus, Nix gives me deterministic, language-agnostic dev environments that live in the Git repo and work identically for every contributor.
 
-Simply put, **Nix is incredible.**
+**Nix is f***ing awesome.**
 
 </details>
 
 ---
 
-## Focus — philosophical
+## Philosophy
 
-Good software accounts for ethical, societal and practical considerations. It's not only functional (no pun intended), but also maintainable and well documented — able to evolve with the client's needs and be passed to other developers with little friction.
-
-I have a great interest in finding *"proper"* solutions to problems. More and more I find myself preferring expert books and official documentation over less formal sources like blogs or guides. That's not to take away from the wonderful part of the software world that is sharing and helping each other. It's just important to verify against official sources — otherwise you hit pitfalls like security holes and solutions that only work _sometimes_.
-
-I care about efficiency. Modern hardware is fast, but energy consumption and scalability still matter, and I find it more satisfying to work in compiled, statically-typed languages where sloppiness has less room to hide. This will likely explain many of the technologies, languages and techniques I prefer using in my work.
+I really like finding "the right" solution to a problem. What, exactly, does that mean?
+Does it mean
+- using the best tools?
+- using pure functional programming?
+- formal verification?
+- denotation design?
+- delivering value?
+- avoiding AI?
+- knowing which problem to solve in the first place?
+- knowing which problem not to solve in the first place?
+- communicating using DDD?
+- communicating using Event Modeling?
+- using Event Sourcing to implement retroactive features, assuming we don't know everything and might regret not having the option tomorrow?
+I mostly have questions, but I'll let you know if I find the answers (promise!).
 
 ---
 
@@ -104,6 +120,13 @@ I'm especially interested in roles involving FP, Rust, devops, systems programmi
     <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
   </a>
 </p>
+
+## Books
+Love'em. Currently reading the following:
+[Category theory for programmers by Bartosz Milewski](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
+[Programming in Haskell by Graham Hutton](https://people.cs.nott.ac.uk/pszgmh/pih.html)
+[Understanding Eventsourcing by Martin Dilger](https://leanpub.com/eventmodeling-and-eventsourcing)
+[SICP by Abelson and Sussmann](https://web.mit.edu/6.001/6.037/sicp.pdf)
 
 ---
 
